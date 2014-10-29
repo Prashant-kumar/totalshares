@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'totalshares'
-  s.version     = '1.0.0'
+  s.version     = '1.0.1'
   s.date        = '2014-10-26'
   s.summary     = "Find out the total no. of shares of a website or webpage."
   s.description = "Find out the total no. of shares of a website or webpage on all major social networks."

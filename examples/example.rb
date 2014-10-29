@@ -1,10 +1,10 @@
-lib =  File.expand_path("../../lib/", __FILE__)
-$LOAD_PATH << lib
+#lib =  File.expand_path("../../lib/", __FILE__)
+#$LOAD_PATH << lib
 require 'totalshares'
 
 
 
-webpage = Webpage.new "http://www.thegeekstuff.com/2014/10/linux-kvm-create-guest-vm/"
+webpage = Totalshares::Webpage.new "http://www.thegeekstuff.com/2014/10/linux-kvm-create-guest-vm/"
 
 webpage.gplus :v => true
 webpage.twitter :v => true
@@ -29,7 +29,7 @@ puts webpage.all
 
 
 
-website = Website.new("www.thegeekstuff.com")
+website = Totalshares::Website.new("www.thegeekstuff.com")
 
 puts website.facebook :depth_limit => 1, :v => true
 puts website.twitter :depth_limit => 1
