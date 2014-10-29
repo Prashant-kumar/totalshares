@@ -1,7 +1,7 @@
 require 'typhoeus'
 require 'json'
 require 'yaml'
-require_relative 'totalshares'
+require 'totalshares'
 class Webpage
   include Totalshares
   def initialize(url)

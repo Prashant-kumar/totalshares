@@ -10,5 +10,5 @@ module Totalshares
     }
 end
 
-require_relative 'website'
-require_relative 'webpage'
+require 'website'
+require 'webpage'

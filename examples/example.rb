@@ -1,5 +1,6 @@
-require_relative '../lib/webpage'
-require_relative '../lib/website'
+lib =  File.expand_path("../../lib/", __FILE__)
+$LOAD_PATH << lib
+require 'totalshares'
 
 
 

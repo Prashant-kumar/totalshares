@@ -1,6 +1,6 @@
-require_relative 'webpage'
+require 'webpage'
 require 'anemone'
-require_relative 'totalshares'
+require 'totalshares'
 class Website
   include Totalshares
   def initialize(url)
