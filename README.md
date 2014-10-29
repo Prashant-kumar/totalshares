@@ -3,6 +3,8 @@ Totalshares
 
 Totalshares is a ruby gem that provides classes(Website and Webpage) to get the number of shares of a specific webpage or an entire website on various social networks. 
 
+####install > gem install totalshares
+
 Webpage
 ---
 ```ruby
